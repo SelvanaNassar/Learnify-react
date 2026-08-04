@@ -12,7 +12,7 @@ export default function CourseDetails(){
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     useEffect(()=>{
-        fetch(`http://localhost:3001/courses/${id}`)
+        fetch(`/courses.json`)
             .then((response)=>{
                 if(!response.ok){
                     throw new Error("Course not found.");
@@ -20,7 +20,13 @@ export default function CourseDetails(){
                 return response.json()
             })
             .then((data)=>{
-                setCourseDetails(data);
+                const course = data.courses.find(
+                    course => course.id === Number(id)
+                );
+                if(!course){
+                    throw new Error("Course not found");
+                }
+                setCourseDetails(course); 
                 setLoading(false);
             })
             .catch(()=>{

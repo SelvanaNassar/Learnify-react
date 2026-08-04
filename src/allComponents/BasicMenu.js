@@ -14,10 +14,10 @@ export default function BasicMenu () {
     //state for courses data 
     const [courses, setCourses] = useState([]);
     //fetching data from the server 
-    useEffect(()=>{fetch("http://localhost:3001/courses")
+    useEffect(()=>{fetch("/courses.json")
                     .then((response)=>{return response.json()})
                     //we put the course data in a state to show it at courses section
-                    .then((data)=>{ setCourses(data);
+                    .then((data)=>{ setCourses(data.courses);
                                     setLoading(false)})
                     .catch((error)=>{setError("Something went wrong while fetching data from the server."); 
                                     setLoading(false);}); },[]);

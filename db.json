@@ -1,0 +1,60 @@
+{
+    "courses":[
+        {
+            "id": 1,
+            "title": "React Fundamentals",
+            "teacher": "John Smith",
+            "price": "120$",
+            "category": "Frontend",
+            "photo": "/react.jpg",
+            "description": "Learning React.js is the process of mastering Meta’s popular JavaScript library to build fast, interactive, and component-based user interfaces for web applications. It bridges the gap between basic web design and modern, scalable frontend software development.",
+            "duration": "18 Hours",
+            "lessons": 100,
+            "level": "Beginner",
+            "language": "English",
+            "students": 350
+        },
+        {
+            "id": 2,
+            "title": "JavaScript Advanced",
+            "teacher": "Mark Johnson",
+            "price": "90$",
+            "category": "Frontend",
+            "photo": "/js.jpg",
+            "description": "Learning JavaScript (JS) is the journey of mastering the core programming language that powers interactive web pages, dynamic user actions, and full-stack applications. It involves moving from basic syntax like variables and loops to advanced concepts like object manipulation and server-side logic.",
+            "duration": "18 Hours",
+            "lessons": 150,
+            "level": "Beginner",
+            "language": "English",
+            "students": 200
+        },
+        {
+            "id": 3,
+            "title": "Node.js Basics",
+            "teacher": "David Brown",
+            "price": "100$",
+            "category": "Backend",
+            "photo": "/nodeJS.png",
+            "description": "Learning Node.js transitions you from a client-side frontend developer to a full-stack engineer by enabling you to run JavaScript on the server. Instead of manipulating what a user sees in the browser, learning Node.js teaches you how to manage data, handle network requests, and interact directly with computer operating systems.",
+            "duration": "18 Hours",
+            "lessons": 100,
+            "level": "Beginner",
+            "language": "Arabic",
+            "students": 250
+        },
+        {
+            "id": 4,
+            "title": "User interface Basics",
+            "teacher": "David Brown",
+            "price": "100$",
+            "category": "Frontend",
+            "photo": "/user interface.jpg",
+            "description": "A learning user interface (UI) is the visual and interactive space within an educational platform.",
+            "duration": "18 Hours",
+            "lessons": 200,
+            "level": "Beginner",
+            "language": "English",
+            "students": 600
+        }
+    ]
+}

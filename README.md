@@ -93,40 +93,48 @@ It simulates an online learning platform where users can browse, search for cour
 
 ## 🛠️ Technologies 
 
-• HTML5
-• CSS3
-• JavaScript (ES6+)
-• React.js
-• React Router DOM
-• Context API
-• React Toastify
-• JSON Server
-• Vercel Deployment
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React.js
+
+### Routing & State management
+- React Router DOM
+- Context API
+
+### Libraries & Tools
+- React Toastify
+- JSON Server
+
+### Deployment
+- Vercel
 
 ---
 
 ## 📂 Project Structure
 
-src/
-├── allComponents/          # Reusable React components
-├── allComponentsCSS/       # Component styles
-├── authContext/            # Authentication context
-├── privateRoute/           # Route protection
-├── layout/                 # Consistent layout component 
-├── App.js
-├── index.css
-├── index.js
-└── README.md
-
-screenshots/                # screenshots
-├── Desktop view/
-├── Mobile view/
-├── search.png
-└── filter.png                     
-     
-public/
-├── courses.json
-└── images
+│
+├──  src/
+│  ├── allComponents/          # Reusable React components
+│  ├── allComponentsCSS/       # Component styles
+│  ├── authContext/            # Authentication context
+│  ├── privateRoute/           # Route protection
+│  ├── layout/                 # Consistent layout component 
+│  ├── App.js
+│  ├── index.css
+│  └──  index.js
+│
+├──  screenshots/              # screenshots
+│  ├── Desktop view/
+│  ├── Mobile view/
+│  ├── search.png
+│  └── filter.png 
+│
+├──  public/
+│  ├── courses.json
+│  └── images
+└──  README.md
 
 ---
 
@@ -141,7 +149,7 @@ No real user authentication is currently implemented.
 
 ## 🔮 Future improvements
  
-- Add real authentication using Google and GitHub and real and registration. 
+- Add real authentication using Google and GitHub and real registration. 
 - Connect the application to a backend API or database.
 - Store user accounts securely.
 - Add user profiles.

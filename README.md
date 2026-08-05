@@ -13,12 +13,14 @@ A modern React-based front-end application for browsing and exploring online cou
 ---
 
 <p align="center">
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Responsive Design](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
 ![Context API](https://img.shields.io/badge/Context_API-React-blue?style=for-the-badge&logo=react)
 ![JSON Server](https://img.shields.io/badge/JSON_Server-000000?style=for-the-badge&logo=json)
+
 </p>
 
 ---

@@ -1,4 +1,4 @@
-/*the Div parent that contains all properties*/
+/*Div parent*/
     .ParentDivcourseDetails {
         background-color: #f5f7fb;
         padding: 20px;
@@ -6,9 +6,8 @@
         text-align: left;
         margin: 0;
     }
-/*end of the Div parent that contains all properties*/
 
-/*the back button tag that make the user back one step, have inside an span(icon) and span(text)*/
+/*back button*/
     .BackBtnCourseDetails{
         border: 0;  
         background-color: #f5f7fb;
@@ -20,15 +19,14 @@
     .BackBtnCourseDetails span:hover{
         color: rgb(66,66,196);
     }
-        /*the span inside back button that hold icon and text*/
+        /*span inside back button*/
         .BackBtnCourseDetails span{
             font-weight: bolder;
             color: rgba(0,0,0);
         }
-        /*end of the span inside back button that hold icon and text*/
-/*end of the back button tag that make the user back one step, have inside an icon and span(text)*/
+       
 
-/*the div that hold all basic course information(course photo, title, level, teacher, category) and start learning button*/
+/*div of hold basic course information and start learning button*/
     .BasicInfoCourseDetails {
         display: flex;
         align-items : center;
@@ -42,34 +40,30 @@
             border-radius: 15px;
             object-fit: cover;
         }
-        /*end of the photo of course*/
         
-        /*the level information of course*/
+        /*level information*/
         .levelBasicInfoCourseDetails{
             color: rgb(241, 180, 23);
             padding: 8px;
             background-color: rgb(240, 174, 8, 0.123);
             border-radius: 15px;
         }
-        /*end of the level information of course*/
 
-        /*make each part of information of course "flex display"*/
+        /*make information of course "flex display"*/
         .flexBasicInfoCourseDetails{
             display: flex;
             gap: 10px;
             margin-top: 5px;
             margin-bottom: 5px;
         }
-        /*end of make each part of information of course "flex display"*/
 
-        /*teacher icon(img) of information course*/
+        /*teacher icon(img)*/
         .teacherIconCourseDetails {
             width: 20px;
             height: 20px;
         }
-        /*end of teacher icon(img) of information course*/
 
-        /*make the background of all icons(information course) with circuled style*/
+        /*circular style for all icons*/
         .allIconsBGCourseDetails{
             background-color: rgba(124, 122, 122, 0.116);
             width: 30px;
@@ -77,9 +71,8 @@
             padding: 5px;
             border-radius: 50px;
         }
-        /*end of make the background of all icons(information course) with circuled style*/
 
-        /*start learning button of information course*/
+        /*start learning button*/
         .startLearningBtnCourseDetails{
             width: 150px;
             height: 50px;
@@ -96,41 +89,33 @@
             background-color: rgb(53,53,170);
             transform: translateY(-2px);
         }
-        /*end of start learning button of information course*/
 
-/*end of the div that hold all basic course information(course photo, title, level, teacher, category) and start learning button*/
-
-/*styling properties of description container Div of information course*/
+/*description container Div*/
     /*(h3)tag of description*/
     .descriptionContainerCourseDetails h3{
         padding: 20px;
     }
-    /*end of (h3)tag of description*/
 
     /*(p)tag of description*/
     .descriptionContainerCourseDetails p{
         /*we make top padding=0 beacuse we make the h3 tag padding=20px so no need to give p a top padding*/
         padding: 0 40px 20px 40px;
     }
-    /*end of (p)tag of description*/
-/*end of styling properties of description container Div of information course*/
 
-/*footer section that have information course(lessons num, language, students num)*/
-    /*(h3)tag of footer that represent title of section*/
+/*footer section*/
+    /*(h3)tag*/
     .footerTitleCourseDetails{
         padding: 20px;
     }
-    /*end of (h3)tag of footer that represent title of section*/
 
-    /*make each part of footer information course "flex display"*/
+    /*make footer information "flex display"*/
     .footerInfoCourseDetails {
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
-    /*end of make each part of footer information course "flex display"*/
 
-    /*shared styles of footer information*/
+    /*shared styles of footer*/
     .footerLessonNumCourseDetails, .footerLanguageCourseDetails, .footerStudentsNumCourseDetails{
         padding: 13px;
         width: 25%;
@@ -140,38 +125,34 @@
         gap: 20px;
         align-items: center;
     }
-    /*end of shared styles of footer information*/
-    /*lesson number spesific styles*/
+   
+    /*lesson number specific styles*/
     .footerLessonNumCourseDetails{
         color: rgb(78, 92, 223);
         background-color: rgb(78, 92, 223, 0.123); 
     }
-    /*end of lesson number spesific styles*/
+  
     /*language spesific styles*/
     .footerLanguageCourseDetails{
         color: rgb(55, 134, 16);
         background-color: rgb(55, 134, 16, 0.123);
     }
-    /*end of language spesific styles*/
+  
     /*students number spesific styles*/
     .footerStudentsNumCourseDetails{
         color: rgb(139, 62, 202);
         background-color: rgb(139, 62, 202, 0.123);
     }
-    /*end of students number spesific styles*/
 
-/*end of footer section that have information course(lessons num, language, students num)*/
-
-/*giving the same style of all the three section of the page*/
+/*three sections of page*/
 .descriptionContainerCourseDetails, .footerContainerCourseDetails, .BasicInfoCourseDetails{
     background-color: white;
     border-radius: 15px;
     margin: 10px;
     box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.08);
 }
-/*end of giving the same style of all the three section of the page*/
 
-/*media query for mobile and tablets devices(make the site responsive)*/
+/*media query for mobile and tablets devices(site responsive)*/
     @media (max-width: 768px){
  
         .BasicInfoCourseDetails {
@@ -179,31 +160,35 @@
             gap: 10px;
             width: 100%;
         }
+
         .footerInfoCourseDetails {
             flex-direction: column;
             gap: 10px;
         }
+
         .footerLessonNumCourseDetails, .footerLanguageCourseDetails, .footerStudentsNumCourseDetails{
             width: 90%;
         }
+
         .photoCourseDetails{
             width: 100%;
             height: auto;
             max-width: 320px;
         }
+
         .startLearningBtnCourseDetails{
             width: 100%;
             max-width: 320px;
             height: 40px;
         }
+
         .descriptionContainerCourseDetails h3{
             padding: 10px;
         }
+
         .descriptionContainerCourseDetails p{
             padding: 0 20px 10px 20px;
-        }
-
-        
+        }   
 
     }
-/*end of media query for mobile and tablets devices(make the site responsive)*/
+

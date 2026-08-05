@@ -1,70 +1,185 @@
-# Getting Started with Create React App
+# 🎓 Learnify - E-learning platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based front-end application for browsing and exploring online courses.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<p align="center">
+  <img src="./screenshots/Desktop view/home.png" width="100%" alt="Online Courses Platform">
+</p>
 
-### `npm start`
+⭐ This project was built to practice modern React development, responsive UI design, routing, and state management using Context API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
 
-### `npm test`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-### `npm run build`
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Responsive Design](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Context API](https://img.shields.io/badge/Context_API-React-blue?style=for-the-badge&logo=react)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![JSON Server](https://img.shields.io/badge/JSON_Server-000000?style=for-the-badge&logo=json)
 
-### `npm run eject`
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 About the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is a modern front-end application built with React.
+It simulates an online learning platform where users can browse, search for courses, filter categories, and view detailed course information.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🔗 Links
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚀 [Live Demo](https://learnify-react.vercel.app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+💻 [Source Code](https://github.com/SelvanaNassar/Learnify-react)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📸 Screenshots
 
-### Analyzing the Bundle Size
+### 💻 Desktop view
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="center">
+ <img src="./screenshots/Desktop view/signin.png" width="16%">
+ <img src="./screenshots/Desktop view/home.png" width="16%">
+ <img src="./screenshots/Desktop view/user-interface-card.png" width="16%">
+ <img src="./screenshots/Desktop view/React-card.png" width="16%">
+ <img src="./screenshots/Desktop view/NodeJS-card.png" width="16%">
+ <img src="./screenshots/Desktop view/JS-card.png" width="16%">
+</p>
 
-### Making a Progressive Web App
+### 📱 Mobile view
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="center">
+ <img src="./screenshots/Mobile view/signin.jpg" width="16%">
+ <img src="./screenshots/Mobile view/home.jpg" width="16%">
+ <img src="./screenshots/Mobile view/user-interface-card.jpg" width="16%">
+ <img src="./screenshots/Mobile view/React-card.jpg" width="16%">
+ <img src="./screenshots/Mobile view/NodeJS-card.jpg" width="16%">
+ <img src="./screenshots/Mobile view/JS-card.jpg" width="16%">
+</p>
 
-### Advanced Configuration
+### 🔍 Search & Filtering
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="center">
+ <img src="./screenshots/filter.png" width="48%">
+ <img src="./screenshots/search.png" width="48%">
+</p>
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ✨ Features
 
-### `npm run build` fails to minify
+- 🔐 User authentication simulation.
+- 📚 Display available courses.
+- 🔎 Search courses by title.
+- 🏷️ Filter courses by category.
+- 📄 Dynamic course details pages.
+- 🔒 Protected routes using React Router.
+- 🔔 User notifications with React Toastify.
+- 📱 Fully responsive design for different screen sizes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🛠️ Technologies 
+
+• HTML5
+• CSS3
+• JavaScript (ES6+)
+• React.js
+• React Router DOM
+• Context API
+• React Toastify
+• JSON Server
+• Vercel Deployment
+
+---
+
+## 📂 Project Structure
+
+src/
+├── allComponents/          # Reusable React components
+├── allComponentsCSS/       # Component styles
+├── authContext/            # Authentication context
+├── privateRoute/           # Route protection
+├── layout/                 # Consistent layout component 
+├── App.js
+├── index.css
+├── index.js
+└── README.md
+
+screenshots/                # screenshots
+├── Desktop view/
+├── Mobile view/
+├── search.png
+└── filter.png                     
+     
+public/
+├── courses.json
+└── images
+
+---
+
+## 📌 Project scope
+
+This project focuses on front-end development using React.
+Authentication is simulated to demonstrate the user interface, routing, state management and responsive UI design.
+No backend services or database are currently integrated.
+No real user authentication is currently implemented.
+
+---
+
+## 🔮 Future improvements
+ 
+- Add real authentication using Google and GitHub and real and registration. 
+- Connect the application to a backend API or database.
+- Store user accounts securely.
+- Add user profiles.
+- Add course progress tracking.
+- Add database integration.
+
+---
+
+## ⚙️ Installation
+
+git clone [REPOSITORY_LINK](https://github.com/SelvanaNassar/Learnify-react.git)
+
+cd Learnify-react
+
+npm install
+
+npm run start
+
+---
+
+## 📚 What I learned
+
+Through this project, I practiced:
+
+- Building reusable React components
+- Managing state with React hooks
+- Using React Router
+- Organizing a React project structure
+- Creating responsive layouts
+
+---
+
+## 👩‍💻 Author
+
+ENG. Selvana Nassar
+
+GitHub: [YOUR_LINK](https://github.com/SelvanaNassar)
+
+LinkedIn: [YOUR_LINK](https://www.linkedin.com/in/selvana-nassar-a83538216)
+
+Email: [selvananassar@gmail.com](mailto:selvananassar@gmail.com)

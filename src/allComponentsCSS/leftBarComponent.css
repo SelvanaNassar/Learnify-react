@@ -1,11 +1,11 @@
-/*component parent div container*/
+/*parent div container*/
     .divContainerLeftBar {
         background-color: rgb(253, 253, 251);
         min-height: 100vh;
         border-right: 1px solid #ddd;
     }
-/*end of component parent div container*/
-/*container of properties settings of left bar*/
+
+/*settings container*/
     .divContainerPropertiesLeftBar {
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@
         padding: 0 0 20px 0;
         border-bottom: 1px solid #ddd;
     }
-    /*each property of settings of left bar and log out button*/
+   
         .btnsPropertiesLeftBar {
             border: none;
             outline: none;
@@ -38,8 +38,7 @@
             padding: 8px;
             border-radius: 8px;
         }
-    /*end of each property of settings of left bar and log out button*/
-/*end of container of properties settings of left bar*/
+   
 /*logo section*/
     .logoLeftBar {
         display: flex;
@@ -49,13 +48,13 @@
         background-color: rgb(66, 66, 196);
         padding: 30px;
     }
-/*end of logo section*/
+
 /*log out button*/
     /*log out container*/
         .divContainerLogOutLeftBar {
             color: rgb(165, 50, 42);
         }
-    /*end of log out container*/
+   
     /*log out btn*/
         .logOutIconLeftBar{
             border: none;
@@ -63,11 +62,8 @@
             color: rgb(165, 50, 42);
             cursor: pointer;
         }
-    /*end of log out btn*/
-/*end of log out button*/
 
-
-/*media query for mobile and tablets devices(make the site responsive)*/
+/*media query for mobile and tablets devices(site responsive)*/
     @media (max-width: 768px){
  
         .childDivContainerPropertiesLeftBar, .divContainerLogOutLeftBar {
@@ -76,16 +72,17 @@
             padding: 0;
             width: 100%;
             justify-content: center;
-        } 
+        }  
+
         .logoLeftBar {
             padding: 35px 0 35px 0;
             justify-content: center;
         }  
+
         .hideOnMobile{
             display: none;
         }
         
-
     }
-/*end of media query for mobile and tablets devices(make the site responsive)*/
+
 

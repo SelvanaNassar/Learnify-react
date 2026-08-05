@@ -1,4 +1,4 @@
-/*the Div parent container of all the component*/
+/*Div parent of component*/
     .divContainerBasicMenu {
         display: flex;
         flex-direction: column;
@@ -7,8 +7,8 @@
         text-align: left;
         margin: 0;
     }
-/*end of the Div parent container of all the component*/
-/*the header of the page*/
+
+/*header of page*/
     .headerContainerBasicMenu {
         padding: 21px 30px 21px 30px;
         border-bottom: 1px solid #ddd;
@@ -16,21 +16,21 @@
         align-items: center;
         background-color: rgb(253, 253, 251);
     }
-    /*make search section and notification section with "display=flex"*/
+    /*make search and notification sections with "display=flex"*/
         .headerSearchSectionBasicMenu, .avatarNotificationBasicMenu {
             display: flex;
             flex-direction: row;
             align-items: center;
             gap: 20px;
         }
-    /*end of make search section and notification section with "display=flex"*/
+    
     /*search button, remove the border*/
         .searchBtnBasicMenu {
             border: none;
             outline: none;
             background-color: rgb(253, 253, 251);
         }
-    /*end of search button, remove the border*/
+   
     /*search div container*/
         .headerSearchSectionBasicMenu{
             width: 40%;
@@ -39,7 +39,7 @@
             border-radius: 50px;
             padding: 0 0 0 15px;
         }
-    /*end of search div container*/
+    
     .notificationBtnBasicMenu{
         border: none;
         outline: none;
@@ -51,8 +51,8 @@
             width: 30px;
             object-fit: cover;
         }
-    /*end of avatar styling*/
-    /*welcome message andfilter section*/
+    
+    /*welcome message and filter section*/
         /*welcome message*/
             .welcomeMessageFilterBasicMenu {
                 display: flex;
@@ -60,7 +60,7 @@
                 justify-content: space-between;
                 margin: 40px 30px 0px 30px;
             }
-        /*end of welcome message*/
+        
         /*filter div container*/
             .filterSelectDivContainerBasicMenu{
                 display: flex;
@@ -77,7 +77,7 @@
                 background-color: rgb(53,53,170);
                 transform: translateY(-2px);
             }
-        /*end of filter div container*/
+        
          /*filter selection and option*/
             .filterSelectBasicMenu{
                 background-color: transparent;
@@ -89,9 +89,8 @@
                 background-color: white;
                 color: rgb(66, 66, 196);
             }
-        /*end of filter selection and option*/
-    /*end of welcome message andfilter section*/
-    /*courses details cards (general information about all courses numbers)*/
+     
+    /*course details cards*/
         .coursesDetailsBasicMenu {
             width: 24%;
             display: flex;
@@ -109,8 +108,8 @@
             transform: translateY(-5px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-    /*end of courses details cards (general information about all courses numbers)*/
-    /*styling courses details cards icons*/
+   
+    /*styling courses cards icons*/
        .allIconsBGBasicMenu{
             background-color: rgb(66, 66, 196, 0.123);
             color: rgb(66, 66, 196);
@@ -119,14 +118,14 @@
             padding: 3px;
             border-radius: 25px;
         }
-    /*end of styling courses details cards icons*/
-    /*container of label of courses cards and view all button*/
+   
+    /*container of courses cards label and view all button*/
         .labelOurCoursesBasicMenu{
             display: flex;
             justify-content: space-between;
             margin: 0 30px 5px 30px;
         }
-    /*end of container of label of courses cards and view all button*/
+   
     /*view all button*/
         .viewAllBtnBasicMenu{
             color: rgb(66, 66, 196);
@@ -134,7 +133,7 @@
             background-color: #f5f7fb;
             cursor: pointer;
         }
-    /*end of view all button*/
+    
     /*courses cards*/
         .courseCardDivContainerBasicMenu {
             width: 24%;
@@ -153,19 +152,19 @@
             transform: translateY(-5px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-    /*courses cards*/
+   
     /*container of showing courses cards*/
         .coursesInfoDivContainerBasicMenu {
                 padding: 10px
             }
-    /*container of showing courses cards*/
+  
     /*courses cards images*/
         .imgCoursesCardsBasicMenu {
             width: 100%;
             object-fit: cover;
             border-radius: 15px 15px 0 0 ;
         }
-    /*end of courses cards images*/
+    
     /*teacher section*/
         .courseTeacherBasicMenu{
             display: flex;
@@ -173,7 +172,7 @@
             gap: 10px;
             margin: 5px 0 0 0;
         }
-    /*end of teacher section*/
+
     /*level and pricing section*/
         .courseLevelPriceBasicMenu{
             display: flex;
@@ -190,15 +189,13 @@
         .PriceBasicMenu {
             color: rgb(66, 66, 196);
         }
-    /*end of level and pricing section*/  
-/*end of the header of the page*/
 
 .headerContainerBasicMenu, .divContainerCoursesDetailsBasicMenu, .ourCoursesBasicMenu {
     display: flex;
     justify-content: space-between;
 }
 
-/*media query for mobile and tablets devices(make the site responsive)*/
+/*media query for mobile and tablets devices(site responsive)*/
     @media(max-width: 768px){
 
         .headerContainerBasicMenu{
@@ -206,41 +203,49 @@
              flex-direction: column;
              gap: 5px;
         }
+        
         .headerSearchSectionBasicMenu, .avatarNotificationBasicMenu {
             gap: 10px;
             width: 100%;
             height: auto;
         }
+
         .avatarNotificationBasicMenu {
             justify-content: space-around;
         }
+
         .headerSearchSectionBasicMenu{
             padding: 0 0 0 7px;
         }
+
         .levelBasicMenu {
             padding: 1px;
         }
+
         .welcomeMessageFilterBasicMenu{
             margin: 10px;
         }
+
         .coursesDetailsBasicMenu {
             padding: 10px;
             width: 90%;
             margin: 0;
         }
+
         .divContainerCoursesDetailsBasicMenu, .ourCoursesBasicMenu {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 5px;
             margin: 10px;
         }
+
         .courseCardDivContainerBasicMenu {
             width: 100%;
             margin: 0;
         }
 
     }
-/*end of media query for mobile and tablets devices(make the site responsive)*/
+
 
 
 

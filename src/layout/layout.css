@@ -14,9 +14,9 @@
         .leftBarContainerLayout {
             width: 10%;
         }
+        
         .outletContainerLayout{
             width: 90%;
         }
 
     }
-/*end of media query for mobile and tablets devices(make the site responsive)*/

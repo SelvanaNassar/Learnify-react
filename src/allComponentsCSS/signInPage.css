@@ -1,4 +1,4 @@
-/*the Div parent that contains all properties*/
+/*Div parent*/
     .ParentDivSignIn {
         display: flex;
         background-color: #f5f7fb;
@@ -7,10 +7,9 @@
         text-align: left;
         margin: 0;
     }
-/*end of the Div parent that contains all properties*/
 
 /*welcome section*/
-    /*welcome section Div container*/
+    /*welcome Div container*/
     .welcomeContainerDivSignIn{
         background-color: rgb(78, 92, 223);
         padding: 40px;
@@ -22,25 +21,22 @@
         gap: 20px;
         width: 50%;
     }
-    /*end of welcome section Div container*/
 
-        /*make icon and related text with "flex display"*/
+        /*icon and related text "flex display"*/
         .iconTextFlexSignIn {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-        /*end of make icon and related text with "flex display"*/
-        /*image of sign in page*/
+       
+        /*image of signin page*/
         .educationImageSignIn{
             width: 100%;
             height: auto;
         }
-        /*end of image of sign in page*/
-/*end of welcome section*/
 
 /*sign in section */
-    /*sign in section Div container */
+    /*signin Div container */
     .signInInfoDivContainerSignIn{
         background-color: white;
         padding: 40px;
@@ -48,7 +44,6 @@
         border-radius: 0 20px 20px 0;
         width: 50%;
     }
-    /*end of sign in section Div container */
         .startSignMessageSignIn{
             margin: 0 0 40px 0;
         }
@@ -61,9 +56,8 @@
         .FormSignIn * {
             margin: 5px 0 0 0;
         }
-        /*end of form section*/
 
-        /*styling the border of the container of password and email*/
+        /*border of password and email container*/
         .emailPasswordStylingSignIn{
             border: 1px solid #ddd;
             border-radius: 10px;
@@ -72,21 +66,18 @@
             align-items: center;
             gap: 10px;
         }
-        /*end of styling the border of the container of password and email*/
 
-        /*remove the border of the container of password and email*/
+        /*remove the border of password and email*/
         .emailInputSignIn, .passwordInputSignIn{
             border: none;
             outline: none;
             width: 100%;
         }
-        /*end of remove the border of the container of password and email*/
 
         /*icons of password and email*/
         .FormSignIn .material-symbols-outlined{
             color: rgba(0, 0, 0, 0.6);
         }
-        /*end of icons of password and email*/
         
         /*mail and female section*/
             .mailFemailRadioBtnSignIn{
@@ -96,9 +87,8 @@
             .mailFemailRadioBtnSignIn * {
                 margin: 0 5px 0 5px;
             }
-        /*end of mail and female section*/
-
-        /*sign in button*/
+      
+        /*signin button*/
         .signInbtnSignIn{
             width: 100%;
             height: 40px;
@@ -115,9 +105,8 @@
             background-color: rgb(53,53,170);
             transform: translateY(-2px);
         }
-        /*end of sign in button*/
-        
-        /*footer of sign in page, styling the sign in by other way and create account*/
+           
+    /*footer*/
         /*margin betwwen the footer and form*/
         .signOtherWayACreateAccountSignIn {
             margin: 40px 0 0 0;
@@ -126,14 +115,14 @@
         .signOtherWayACreateAccountSignIn * {
             margin: 0 0 20px 0;
         }
-            /*make the way to other sign in with display flex*/
+            /*other signin "display flex"*/
                 .googleGithubDivSignIn {
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
                 }
-            /*end of make the way to other sign in with display flex*/
-            /*make a background of "google" and "github"*/
+           
+            /*background of "google" and "github"*/
                 .googleGithubDivSignIn > * {
                     border: solid 1px #ddd;
                     padding: 5px;
@@ -149,7 +138,7 @@
                     background-color: white;
                     border-color:rgb(66,66,196)
                 }
-            /*end of make a background of "google" and "github"*/
+            
             /*create account button*/
             .createAccountSignIn{
                 background-color: transparent;
@@ -166,18 +155,13 @@
                     color: white;
                     border-radius: 7px;
             }
-            /*end of create account button*/
-        /*end of footer of sign in page, styling the sign in by other way and create account*/   
-/*end of sign in section*/
 
-
-/*make the footer and header messages at center of their parents*/
+/*footer and header messages at center of their parents*/
     .signOtherWayACreateAccountSignIn, .startSignMessageSignIn {
         text-align: center;
     }
-/*end of make the footer and header messages at center of their parents*/
 
-/*styling the background of icons*/
+/*icons background*/
     .allIconsBGSignIn{
         background-color: rgba(252, 252, 252, 0.123);
         color: white;
@@ -186,9 +170,8 @@
         padding: 5px;
         border-radius: 10px;
     }
-/*end of styling the background of icons*/
 
-/*media query for mobile and tablets devices(make the site responsive)*/
+/*media query for mobile and tablets devices(site responsive)*/
     @media (max-width: 768px){
 
         .ParentDivSignIn {
@@ -197,20 +180,24 @@
             width: 100%;
             padding: 0;
         }
+
        .welcomeContainerDivSignIn, .signInInfoDivContainerSignIn{
             width: 100%;
             padding: 20px;
             border-radius: 0;    
        } 
+
         .startSignMessageSignIn{
             margin: 0 0 20px 0;
             width: 100%;
             text-align: left;
         }
+
         .emailPasswordStylingSignIn{
             border-radius: 10px;
             width: 90%;
         }
+
         .signInInfoDivContainerSignIn{
             width: 100%;
             padding: 10px;     
@@ -218,5 +205,5 @@
     } 
 
     
-/*end of media query for mobile and tablets devices(make the site responsive)*/
+
 
